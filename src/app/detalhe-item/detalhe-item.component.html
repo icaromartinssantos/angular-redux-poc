@@ -1,0 +1,49 @@
+<p-card>
+  <div class="grid">
+    <div class="col">
+      <img src="../../assets/bolsa.png" alt="bolsa" width="300" height="300" />
+    </div>
+    <div class="col">
+      <h1 style="margin: 0">Bolsa Rosa</h1>
+      <div class="grid">
+        <div class="col">
+          <p
+            style="
+              font-size: 0.875em;
+              color: #858585;
+              margin-bottom: 12px;
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis;
+            "
+          >
+            Bolsa Couro Costtano Matelassê Caramelo
+          </p>
+          <p>
+            Vendido e entregue por
+            <strong
+              style="
+                color: #00ae7c;
+                margin-left: 2px !important;
+                margin-right: 2px !important;
+              "
+              >Costtano</strong
+            >
+          </p>
+          <p style="text-decoration: line-through">R$ 401,00</p>
+          <p style="font-size: 2em; color: #000000; margin: 0">
+            R$ 289,00 <span style="color: red; font-size: 18px">-28%</span>
+          </p>
+          <p style="font-size: 0.8em; color: #000">
+            7x de R$ 41,29 sem juros no cartão
+          </p>
+          <button
+            pButton
+            (click)="addItem()"
+            label="Adicionar ao Carrinho"
+          ></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</p-card>
